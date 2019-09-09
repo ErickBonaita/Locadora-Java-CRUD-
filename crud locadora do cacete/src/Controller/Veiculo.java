@@ -12,22 +12,22 @@ package Controller;
  * @author aluno
  */
 public class Veiculo {
-    public void insert (Veiculo V){
+    public void insert (Veiculo v){
     }
     
-    public void select (Veiculo V){
+    public void select (Veiculo v){
     }
     
-    public void delete (Veiculo V){
+    public void delete (Veiculo v){
     }
     
-    public void GetById(Veiculo V){
+    public void getById(Veiculo v){
     }
     
-    public void GetAllRows(Veiculo V){
+    public void getAllRows(Veiculo v){
     }
     
-    public void GetByNome(Veiculo V){
+    public void getByNome(Veiculo v){
     }
     
 }

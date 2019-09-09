@@ -36,7 +36,7 @@ public class Marca {
             return Nome;
         }
         
-        public void setnome(String Nome){
+        public void setNome(String Nome){
             this.Nome = Nome;
         }
         

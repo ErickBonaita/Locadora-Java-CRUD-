@@ -10,21 +10,21 @@ package Controller;
  * @author aluno
  */
 public class Telefone {
-   public void insert (Telefone T){
+   public void insert (Telefone t){
     }
     
-    public void select (Telefone T){
+    public void select (Telefone t){
     }
     
-    public void delete (Telefone T){
+    public void delete (Telefone t){
     }
     
-    public void GetById(Telefone T){
+    public void getById(Telefone t){
     }
     
-    public void GetAllRows(Telefone T){
+    public void getAllRows(Telefone t){
     }
     
-    public void GetByNome(Telefone T){
+    public void getByNome(Telefone t){
     } 
 }

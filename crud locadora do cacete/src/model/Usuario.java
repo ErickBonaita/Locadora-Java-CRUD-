@@ -13,11 +13,11 @@ public class Usuario {
     public int senha;
     public String Email;
     
-    public void setsenha(int senha){
+    public void setSenha(int senha){
         this.senha = senha;
     }
         
-    public int getsenha(){
+    public int getSenha(){
         return senha;
     }
     
@@ -25,7 +25,7 @@ public class Usuario {
         return Email;
     }
         
-    public void setemail(String RG){
+    public void setEmail(String RG){
         this.Email = Email;
     }
 }

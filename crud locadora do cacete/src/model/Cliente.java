@@ -10,8 +10,12 @@ package model;
  * @author aluno
  */
 public class Cliente {
-    public class Clientes {
-    private int IDcliente, CPF, CEP;
+    
+    
+   
+    
+        
+        private int IDcliente, CPF, CEP;
     private String nome, cidade, estado, RG;
     
     public void setId(int i) throws Exception {
@@ -21,7 +25,7 @@ public class Cliente {
         } else {
             throw new Exception ("Id nao pode ser menor ou igual a zero");
         }
-        }
+    }
     
 
         public int getIDcliente() {
@@ -52,27 +56,27 @@ public class Cliente {
             this.CEP = CEP;
         }
         
-        public String getnome(){
+        public String getNome(){
             return nome;
         }
         
-        public void setnome(String nome){
+        public void setNome(String nome){
             this.nome = nome;
         }
         
-        public String getcidade(){
+        public String getCidade(){
             return nome;
         }
         
-        public void setcidade(String cidade){
+        public void setCidade(String cidade){
             this.cidade = cidade;
         }
         
-        public String getestado(){
+        public String getEstado(){
             return estado;
         }
         
-        public void setestado(String estado){
+        public void setEstado(String estado){
             this.estado = estado;
         }
         
@@ -83,7 +87,7 @@ public class Cliente {
         
         
         }
-    }
+    
 
         
         

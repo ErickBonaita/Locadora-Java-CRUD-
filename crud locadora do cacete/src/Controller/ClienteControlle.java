@@ -6,29 +6,49 @@
 package Controller;
 
 import model.Cliente;
-
+import java.sql.*;
+import java.util.ArrayList;
 /**
  *
  * @author aluno
  */
 public class ClienteControlle {
     
-    public void insert (Cliente C){
+    private Conexao bd;
+    public ClienteControlle() throws SQLException, ClassNotFoundException {
+        
+        this.bd = new Conexao();        
     }
     
-    public void select (Cliente C){
+    
+    public void insert (Cliente c) throws SQLException {
+        
+        PreparedStatement stmt = bd.getConn().prepareStatement("INSERT INTO Cliente (Nome, Estado, Cidade, CEP, CPF, RG) VALUES (?, ?, ?, ?,?,?)");
+         
+        stmt.setString(1, c.getNome());
+        stmt.setString(2, c.getEstado());
+        stmt.setString(3, c.getCidade());
+        stmt.setString(4, c.getCEP());
+        stmt.setString(5, c.getCPF());
+        stmt.setString(6, c.getRG());
+         
+        stmt.execute();
+        stmt.close();
     }
     
-    public void delete (Cliente C){
+    public void select (Cliente c){
     }
     
-    public void GetById(Cliente C){
+    public void delete (Cliente c){
     }
     
-    public void GetAllRows(Cliente C){
+    public void getById(Cliente c){
     }
     
-    public void GetByNome(Cliente C){
+    public void getAllRows(Cliente c){
+    }
+    
+    public void getByNome(Cliente c){
     }
     
     

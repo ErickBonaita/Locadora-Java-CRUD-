@@ -11,21 +11,21 @@ package Controller;
  * @author aluno
  */
 public class Cor {
-    public void insert (Cor C){
+    public void insert (Cor c){
     }
     
-    public void select (Cor C){
+    public void select (Cor c){
     }
     
-    public void delete (Cor C){
+    public void delete (Cor c){
     }
     
-    public void GetById(Cor C){
+    public void getById(Cor c){
     }
     
-    public void GetAllRows(Cor C){
+    public void getAllRows(Cor c){
     }
     
-    public void GetByNome(Cor C){
+    public void getByNome(Cor c){
     }
 }
